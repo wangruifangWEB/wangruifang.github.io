@@ -1,0 +1,86 @@
+//article
+DROP DATABASE IF EXISTS articledb;
+CREATE DATABASE articledb DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE articledb;
+CREATE TABLE article(
+id int(11) NOT NULL AUTO_INCREMENT,
+title varchar(30) NOT NULL,
+pic varchar(30) NOT NULL,
+description text NOT NULL,
+content text DEFAULT NULL,
+author varchar(30)NOT NULL,
+dateline int(11) NOT NULL,
+sortId int(11) NOT NULL,
+clickCount int(11) NOT NULL,
+cateid int(11) NOT NULL,
+PRIMARY KEY (id)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+insert into article(title,author,description,content) values('title','author','description','content');
+
+
+
+//adv
+USE articledb;
+CREATE TABLE advbanner(
+id int(11) NOT NULL AUTO_INCREMENT,
+title varchar(30) NOT NULL,
+img  varchar,
+sort Number,
+content text DEFAULT NULL,
+PRIMARY KEY (id)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+insert into article(title,content) values('admin','admin');
+
+
+USE articledb;
+CREATE TABLE userlogin(
+id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(30) NOT NULL,
+password VARCHAR(30) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+insert into userLogin(id,username) values('',''wrf','123456');
+
+
+
+创建评论表
+CREATE TABLE comments (
+  id int(11) NOT NULL auto_increment,
+  user varchar(30) NOT NULL,
+  comment varchar(200) NOT NULL,
+  addtime datetime NOT NULL,
+  PRIMARY KEY  (id)
+) ENGINE=MyISAM; " ;
+
+$sql = "CREATE TABLE `comments` (
+  `id` int(11) NOT NULL auto_increment,
+  `user` varchar(30) NOT NULL,
+  `comment` varchar(200) NOT NULL,
+  `addtime` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM; " ;
+
+
+
+
+创建回复表
+CREATE TABLE replyComments (
+  id int(11) NOT NULL auto_increment,
+  replyId int(11),
+  replyName varchar(30) NOT NULL,
+  replyContent varchar(200) NOT NULL,
+  replyTime datetime NOT NULL,
+  PRIMARY KEY  (id)
+) ENGINE=MyISAM; " ;
+
+
+创建文章分类表  article_category
+
+cate_id  cate_name  cate_pic  cate_keywords  cate_type cate_desc  parentId  cate_content
+
+
+USE articledb;
+CREATE TABLE column_category(
+column_id int(11) NOT NULL AUTO_INCREMENT,
+column_name varchar(30) NOT NULL,
+PRIMARY KEY (id)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
