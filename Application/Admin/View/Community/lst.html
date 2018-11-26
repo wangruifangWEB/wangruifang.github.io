@@ -1,0 +1,36 @@
+<include file="Index/header" />
+<body>
+<form action="__CONTROLLER__/sort" method="post">
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder"> 社区列表</strong></div>
+  <div class="padding border-bottom">  
+  <a class="button border-yellow" href="__CONTROLLER__/add"><span class="icon-plus-square-o"></span> 添加社区</a>
+      <input class="button border-blue" type="submit" value="更新排序">
+  </div> 
+  <table class="table table-hover text-center">
+    <tr>
+        <th>排序</th>
+        <th width="5%">ID</th>
+      <th>社区名称</th>
+      <th width="250">操作</th>
+    </tr>
+      <volist name="communities" id="vo">
+          <tr>
+              <td>
+                  <input type="number" name="{$vo.id}" value="{$vo.sort}" style="width:50px; text-align:center; border:1px solid #ddd; padding:7px 0;">
+              </td>
+              <td>{$vo.id}</td>
+              <td>{$vo.title}</td>
+              <td>
+                  <div class="button-group">
+                      <a type="button" class="button border-main" href="__CONTROLLER__/edit/id/{$vo.id}"><span class="icon-edit"></span>修改</a>
+                      <a class="button border-red" href="__CONTROLLER__/del/id/{$vo.id}" onclick="return confirm('你要删除栏目{$vo.name}吗?');"><span class="icon-trash-o"></span> 删除</a>
+                  </div>
+              </td>
+          </tr>
+      </volist>
+  </table>
+</div>
+</form>
+</body>
+</html>

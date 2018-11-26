@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://www.golaravel.com/ -->
+<html lang="zh-CN">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="refresh" content="20"> <!--页面自动刷新,其中20指每隔20秒刷新一次页面.-->
+		<title>个人小屋</title>
+		<meta name="description" content="本博客分享总结自己项目中遇到的坑" />
+		<meta name="keywords" content="博客 分享 web 前端" />
+		<meta name="HandheldFriendly" content="True" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="__PUBLIC__/home/assets/css/bootstrap_3.3.4_css_bootstrap.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/home/assets/css/highlight.js_9.0.0_styles_vs.min.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/assets/css/screen.min.css" />
+		<script type="text/javascript" src="__PUBLIC__/home/assets/js/jquery.min.js"></script>
+		<style id="fit-vids-style">
+			.fluid-width-video-wrapper {
+				width: 100%;
+				position: relative;
+				padding: 0;
+			}
+			
+			.fluid-width-video-wrapper iframe,
+			.fluid-width-video-wrapper object,
+			.fluid-width-video-wrapper embed {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.article-container {
+				background-color: #fff;
+				padding: 20px 30px;
+				margin-bottom: 60px;
+			}
+			
+			.article-head {
+				text-align: center;
+				margin: 20px 0 40px 0;
+			}
+			
+			.article-head .article-title {
+				margin: 0;
+				font-size: 2em;
+				line-height: 1.2em;
+			}
+			
+			.article-head .article-title a {
+				color: #303030;
+			}
+			
+			.article-head .article-meta {
+				color: #959595;
+				margin: 14px 0 0;
+			}
+		</style>
+	</head>
+
+	<body class="home-template">
+
+		<div id="">
+			<!--头部内容引入-->
+			<include file="Public/header" />
+
+			<section class="content-wrap">
+				<div class="container">
+					<div class="row">
+						<main class="col-md-8 main-content">
+							<!--  <?php echo htmlspecialchars_decode($list.content) ?>-->
+							<div class="article-container">
+								<div class="article-head">
+									
+									<h1 class="article-title"><a href="javasvript:;">{$list.title}</a></h1>
+									<div class="article-meta">
+										<span class="author">主人：<a href="http://wangruifang.cn/" target="_blank">{$list.author}</a></span> •
+										<time class="article-date" datetime="" title="{$list.publish_time}">{$list.publish_time}</time>
+									</div>
+								</div>
+								<?php $rows=mysql_fetch_array($list); echo html_entity_decode($list['content']); ?>
+								<!--评论-->
+								<div class="comment">
+									<p>评论区</p>
+									<ul class="list">
+										<volist name="total" id="vo">
+											<li>
+												<p><span>{$vo.uname}</span> • {$vo.publish_time}</p>
+												<p>{$vo.content}</p>
+												<a href="javascript:;" class="replyShow">回复</a>
+												<input type="hidden" value="{$vo.id}" class="commentId"/>
+												<ul>
+													<volist name="vo['new']" id="v">
+														<li>
+															<p><span>{$v.replyname}</span> • {$v.reply_time}</p>
+															<p>{$v.replycontent}</p>
+														</li>
+													</volist>
+													<!--<form action="/personalBlog/index.php/Home/Detail/reply" enctype="application/x-www-form-urlencoded" method="get">-->
+														<div class="replyBox">
+															<input type="text" placeholder="请输入姓名" id="replyName" name="replyname"/>
+															<textarea name="" rows="1" cols="64" placeholder="理性言论哦" id="replyContent"></textarea>
+															<button id="reply">添加回复</button>
+														</div>
+													<!--</form>-->
+												</ul>
+											</li>
+										</volist>
+									</ul>
+									<form action="POST" id="formId">
+										<ul>
+											<li>
+												<input type="text" placeholder="请输入姓名" id="uname" />
+											</li>
+											<li>
+												<textarea name="" rows="5" cols="60" placeholder="理性言论喽" id="desc"></textarea>
+											</li>
+											<li>
+												<button type="button" class="commentBtn" onclick="throttle(leaveMsg)">提交留言</button>
+											</li>
+										</ul>
+									</form>
+								</div>
+							</div>
+						</main>
+						<!--右侧内容引入-->
+						<include file="Public/right" />
+					</div>
+				</div>
+			</section>
+
+			<!--底部内容引入-->
+			<include file="Public/footer" />
+		</div>
+
+		<script type="text/javascript">
+			//$(function() {
+			//首次留言
+			var leaveMsg = function() {
+				var uname = $('#uname').val();
+				var desc = $('#desc').val();
+				if(uname == '' || desc == '') {
+					alert('输入不能为空！');
+					return false;
+				} else {
+					$.ajax({
+						url: "{:U('Detail/comment')}",
+						type: "GET",
+						async: false,
+						dataType: 'json',
+						data: {
+							'uname': uname,
+							'desc': desc,
+							'id': getParam()
+						},
+						contentType: 'application/json; charset=utf-8',
+						success: function(res) {
+							if(res) {
+								//获取当前时间
+								//var mydate = new Date();
+								//var t=mydate.toLocaleString();
+								var result = `<li>
+								               <span>${uname}</span> • 刚刚
+								               <p>${desc}</p>
+								               <a href="javascript:;" class="replyShow">回复</a>
+								               <ul>
+													<div class="replyBox" style="display:none;">
+														<input type="text" placeholder="请输入姓名" id="replyName" />
+														<textarea name="" rows="1" cols="64" placeholder="理性言论哦" id="replyContent"></textarea>
+														<button id="reply">添加回复</button>
+													</div>
+												</ul>
+								               </li>`;
+								$('.list').append(result);
+								alert('留言成功！');
+							}
+						},
+						error: function(res) {
+							alert('留言失败！');
+							console.log(res.responseText);
+						}
+					});
+				}
+			}
+
+			//回复留言
+			//调出回复输入框
+			$('.list').on('click','.replyShow',function() {
+			    console.log('点击了');
+				$('.replyBox').hide(500);
+				$(this).siblings('ul').children('.replyBox').show(500);
+				$(this).siblings('ul').children('.replyBox').children('input').focus();
+			});
+			
+			$('.list').on('click','#reply',function(){
+				$(".replyBox").hide(500);
+				//给当前的提交按钮添加自定义属性值，作为区分
+				$(this).addClass('currentIdx');
+				throttle(replyLeave);
+			})
+
+			var replyLeave = function() {
+				var replyName = $('.currentIdx').siblings('#replyName').val();
+				var replyContent = $('.currentIdx').siblings('#replyContent').val();
+				var commentId = $('.curenrtIdx').parent().parent().siblings('.commentId').val();
+				console.log(commentId);
+				
+				if(replyName == '' || replyContent == '') {
+					alert('输入不能为空！');
+					//清除添加的class
+					$('#reply').removeClass('currentIdx');
+					return false;
+				} else {
+					$.ajax({
+						url: "{:U('Detail/reply')}",
+						type: "GET",
+						async: false,
+						dataType: 'json',
+						data: {
+							'replyName': replyName,
+							'replyContent': replyContent,
+							'commentId': commentId
+						},
+						contentType: 'application/json; charset=utf-8',
+						success: function(res) {
+							console.log(res);
+							if(res) {
+								var result = `<li><span>${replyName}</span> • 刚刚<p>${replyContent}</p></li>`;
+								$('.currentIdx').parent().parent().append(result);
+								alert('留言成功！');
+							}
+						},
+						error: function(res) {
+							alert('留言失败！');
+							console.log(res.responseText);
+						}
+					});
+				}
+			}
+
+			function getParam() {
+				var url = document.location.href; //首先获取到你的URL地址;
+				var ary = url.split("id/"); //用“&”将URL分割成2部分每部分都有你需要的东西;
+				var id = ary[1]; //获取到URL的另一部分"id值";
+				return id;
+			}
+
+			//节流
+			function throttle(method, context) {
+				clearTimeout(method.tId);
+				method.tId = setTimeout(function() {
+					method.call(context);
+				}, 100);
+			}
+			//})
+		</script>
+	</body>
+
+</html>

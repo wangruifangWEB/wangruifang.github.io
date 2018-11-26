@@ -2,10 +2,29 @@
 namespace Admin\Controller;
 use Think\Controller;
 class ArticleController extends Controller {
+	protected $allowMethod = array('get','post','put'); // REST允许的请求类型列表
+    protected $allowType = array('html','xml','json'); // REST允许请求的资源类型列表
+	
+	Public function Article_json(){ //文章
+        // 输出id为1的Info的json数据
+		$article = M('article_view'); // 实例化article对象     
+	    // 进行分页数据查询 注意page方法的参数的前面部分是当前的页数使用 $_GET[p]获取
+	    $count=$article->count(); 
+        $p = getpage($count,5);
+        $list = $article->field(true)->order('article_id asc')->limit($p->firstRow, $p->listRows)->select();
+        $this->assign('articles', $list); // 赋值数据集
+        $this->assign('page', $p->show()); // 赋值分页输出
+        $this->ajaxReturn($list);
+    }
+	
     public function lst(){
-        $article=M('article');
-        $articles=$article->order('sortId asc')->select();//desc从大到小  asc从小
-        $this->assign('articles',$articles);
+		$article = M('article_view'); // 实例化article对象     
+	    // 进行分页数据查询 注意page方法的参数的前面部分是当前的页数使用 $_GET[p]获取
+	    $count=$article->count(); 
+        $p = getpage($count,5);
+        $list = $article->field(true)->order('article_sortid asc')->limit($p->firstRow, $p->listRows)->select();
+        $this->assign('articles', $list); // 赋值数据集
+        $this->assign('page', $p->show()); // 赋值分页输出
         $this->display();
     }
 
@@ -13,13 +32,19 @@ class ArticleController extends Controller {
         // 实例化article对象
         $article=D('article');
         if(!IS_POST){
-            $articles=$article->order('sortId asc')->select();//desc从大到小  asc从小
+			/*分类标题*/
+			$cate=D('category');
+			$cates=$cate->order('cate_sort asc')->select();//desc从大到小  asc从小到大
+			$this->assign("cates",$cates);
+		    /*文章*/
+            $articles=$article->order('article_sortid asc')->select();//desc从大到小  asc从小
             $this->assign('article',$articles);
+		//	dump($articles); exit;
             $this->display();
         } else {
             $content = I('post.content');
             $data = I('post.');
-            $data['datetime'] = time();
+            $data['publish_time'] = date("Y-m-d H:i:s",time());
             $arr['content'] = $content;
 
             if($_FILES['pic']['tmp_name'] !== ''){
@@ -56,14 +81,20 @@ class ArticleController extends Controller {
     }
 
     public function edit($id){
-        $article=D('article');
         if(!IS_POST){
-            $articles=$article->find($id);
+			/*分类标题*/
+			$cate=D('category');
+			$cates=$cate->order('cate_sort asc')->select();//desc从大到小  asc从小到大
+			$this->assign("cates",$cates);
+			
+			$article=D('article_view');
+            $articles=$article->where("article_id='$id'")->find();
             $this->assign('article',$articles);
             $this->display();
         }else {
+			$article=D('article');
             $data = I('post.');
-            $data['datetime'] = time();
+            $data['publish_time'] = date("Y-m-d H:i:s",time());
 
             if($_FILES['pic']['tmp_name'] !== ''){
                 $upload = new \Think\Upload();// 实例化上传类
@@ -79,10 +110,10 @@ class ArticleController extends Controller {
                     $data['pic'] = $pic;
                 }
             }
-
+            /* dump($data); exit;*/
             // 根据表单提交的POST数据创建数据对象
             if ($article->create($data)) {// 根据表单提交的POST数据创建数据对象
-                $result = $article->where(['article_id'=>$id])->save();
+                $result = $article->where("article_id='$id'")->save();
                 if ($result) {
                     //设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']
                     $this->success('文章修改成功！', U('lst'));
@@ -111,10 +142,10 @@ class ArticleController extends Controller {
     }
 
     public function sort(){
-//        $column_cate=D('column_cate');
-//        foreach($_POST as $column_id => $column_sort){
-//            $column_cate->where(array('column_id'=>$column_id))->setField('column_sort',$column_sort);
-//        }
-//        $this->success('栏目排序成功！', U('lst'));
+        $article=D('article');
+        foreach($_POST as $article_id => $article_sortid){
+            $article->where(array('article_id'=>$article_id))->setField('article_sortid',$article_sortid);
+        }
+        $this->success('文章排序成功！', U('lst'));
     }
 }

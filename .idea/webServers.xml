@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fb6c149c-f000-42e6-9e7b-e6bbf61d6815" name="localhost" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\phpStudy\WWW" accessType="MOUNT" />
+      </webServer>
+      <webServer id="b8b59fd8-6e8e-4144-847b-99cf8b3e3597" name="php" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\phpStudy\WWW" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,1426 @@
+[ 2018-11-20T14:49:19+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.1140s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:49:23+08:00 ] ::1 /personalBlog/index.php/Home/Detail/index/id/68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `article_id` = 68 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:49:27+08:00 ] ::1 /personalBlog/index.php/Home/Detail/index/id/71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `article_id` = 71 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:50:21+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:50:22+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:50:22+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:50:22+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:50:22+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:50:23+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:52:39+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:52:41+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:52:41+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:52:41+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:52:41+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:52:41+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:52:43+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:49+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:50+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:50+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:51+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:51+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:51+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:51+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:53:51+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:54:07+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:56:02+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:56:04+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:57:04+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:58:13+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:58:16+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T14:59:04+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:00:49+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:00:51+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:00:54+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:05+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:08+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:09+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:10+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:10+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:10+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:45+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:01:50+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:02:16+08:00 ] ::1 /personalBlog/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:02:26+08:00 ] ::1 /personalBlog/index.php/Home/Detail/index/id/67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `article_id` = 67 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:02:29+08:00 ] ::1 /personalBlog/index.php/Home/Detail/index/id/68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `article_id` = 68 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:02:32+08:00 ] ::1 /personalBlog/index.php/Home/Detail/index/id/71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `article_id` = 71 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-20T15:02:39+08:00 ] ::1 /personalBlog/index.php/Home/Detail/index/id/67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `article_id` = 67 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 95 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+

@@ -1,0 +1,475 @@
+[ 2018-11-21T09:51:20+08:00 ] ::1 /personalBlog/index.php/Admin/Info/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:20+08:00 ] ::1 /personalBlog/index.php/Admin/Info/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:21+08:00 ] ::1 /personalBlog/index.php/Admin/Pass/pass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:21+08:00 ] ::1 /personalBlog/index.php/Admin/Community/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\97413f1d839e5400c4f16874a1da1d70.php 第 38 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\97413f1d839e5400c4f16874a1da1d70.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:21+08:00 ] ::1 /personalBlog/index.php/Admin/Community/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `community` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `community` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\97413f1d839e5400c4f16874a1da1d70.php 第 38 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\97413f1d839e5400c4f16874a1da1d70.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:22+08:00 ] ::1 /personalBlog/index.php/Admin/Message/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leave_message` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `leave_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`uname`,`utel`,`content`,`publish_time` FROM `leave_message` ORDER BY publish_time asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:22+08:00 ] ::1 /personalBlog/index.php/Admin/Adv/adv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `banner` ORDER BY banner_sort asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:23+08:00 ] ::1 /personalBlog/index.php/Admin/Message/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leave_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `leave_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`uname`,`utel`,`content`,`publish_time` FROM `leave_message` ORDER BY publish_time asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:51:23+08:00 ] ::1 /personalBlog/index.php/Admin/Column/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `column_cate` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `column_cate` ORDER BY column_sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cate_name D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\4e599994dc22e728c3b063429ea5be54.php 第 38 行.
+NOTIC: [8] Undefined index: cate_name D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\4e599994dc22e728c3b063429ea5be54.php 第 38 行.
+NOTIC: [8] Undefined index: cate_name D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\4e599994dc22e728c3b063429ea5be54.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:57:03+08:00 ] ::1 /personalBlog/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_view` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article_view` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cate_name`,`article_id`,`title`,`pic`,`description`,`content`,`author`,`article_sortid`,`cateid`,`publish_time` FROM `article_view` ORDER BY article_sortid asc LIMIT 0,5   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:57:04+08:00 ] ::1 /personalBlog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:58:28+08:00 ] ::1 /personalBlog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`title`,`cateid`,`description`,`content`,`article_sortid`,`author`,`publish_time`,`pic`) VALUES ('今天又是一个周三','15','一天过的真是快啊','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;又是一个周三&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20181121/1542765502904743.jpg&quot; title=&quot;1542765502904743.jpg&quot; alt=&quot;1-1P42G14029.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;','4','wrf','2018-11-21 09:58:28','2018-11-21/5bf4bbc49de8a.jpg') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:58:29+08:00 ] ::1 /personalBlog/index.php/Admin/Article/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_view` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article_view` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cate_name`,`article_id`,`title`,`pic`,`description`,`content`,`author`,`article_sortid`,`cateid`,`publish_time` FROM `article_view` ORDER BY article_sortid asc LIMIT 0,5   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T09:59:48+08:00 ] ::1 /personalBlog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` ORDER BY article_sortid asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T10:00:05+08:00 ] ::1 /personalBlog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`title`,`cateid`,`description`,`content`,`article_sortid`,`author`,`publish_time`,`pic`) VALUES ('啥问题11','15','二','&lt;p&gt;二&lt;/p&gt;','6','wrf','2018-11-21 10:00:05','2018-11-21/5bf4bc25a1377.jpg') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T10:00:06+08:00 ] ::1 /personalBlog/index.php/Admin/Article/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article_view` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article_view` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cate_name`,`article_id`,`title`,`pic`,`description`,`content`,`author`,`article_sortid`,`cateid`,`publish_time` FROM `article_view` ORDER BY article_sortid asc LIMIT 0,5   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T10:22:30+08:00 ] ::1 /personalBlog/index.php/Admin/Article/edit/id/72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` ORDER BY cate_sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article_view` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `article_view` WHERE ( article_id='72' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T10:22:34+08:00 ] ::1 /personalBlog/index.php/Admin/Article/edit/id/72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\personalBlog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `article` SET `title`='今天又是一个周三',`cateid`='15',`description`='一天过的真是快啊',`content`='&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;又是一个周三&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20181121/1542765502904743.jpg&quot; title=&quot;1542765502904743.jpg&quot; alt=&quot;1-1P42G14029.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;',`author`='wrf',`publish_time`='2018-11-21 10:22:34' WHERE ( article_id='72' ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+
+[ 2018-11-21T10:22:35+08:00 ] ::1 /personalBlog/index.php/Admin/Article/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_view` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article_view` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cate_name`,`article_id`,`title`,`pic`,`description`,`content`,`author`,`article_sortid`,`cateid`,`publish_time` FROM `article_view` ORDER BY article_sortid asc LIMIT 0,5   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+NOTIC: [8] Undefined index: article_sortId D:\phpStudy\WWW\personalBlog\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ‘APP_DEBUG’ - assumed '‘APP_DEBUG’' D:\phpStudy\WWW\personalBlog\index.php 第 30 行.
+

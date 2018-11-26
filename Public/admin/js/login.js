@@ -5,8 +5,8 @@
 var login = {
     check : function() {
         // 获取登录页面中的用户名 和 密码
-        var username = $('input[name="name"]').val();
-        var password = $('input[name="password"]').val();
+        var username = $('input[name="username"]').val();
+        var password = $('input[name="userpassword"]').val();
 
         // if(!username) {
         //     return dialog.error('用户名不能为空');
@@ -15,17 +15,17 @@ var login = {
         //     return dialog.error('密码不能为空');
         // }
 
-         var url = "/personalBlog/index.php?m=admin&c=login&a=check";
-        // var data = {'username':username,'password':password};
+         var url = "/personalBlog/index.php/Admin/Login/check?m=admin&c=login&a=check";
+         var data = {'username':username,'password':password};
 
         // 执行异步请求  $.post
         $.ajax({
             type: "post",
             url: url,
-            data: {'username':username,'password':password},
+            data: data,
             dataType: "text",
             success: function (result) {
-                console.log(result);
+                console.log('返回结果：'+result);
                 // if(result.status == 0) {
                 //     return dialog.error(result.message);
                 // }

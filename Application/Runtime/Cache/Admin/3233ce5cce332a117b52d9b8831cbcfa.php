@@ -1,27 +1,30 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<meta name="renderer" content="webkit">
-<title></title>
-<link rel="stylesheet" href="/personalBlog/Public/admin/css/pintuer.css">
-<link rel="stylesheet" href="/personalBlog/Public/admin/css/admin.css">
-<script src="/personalBlog/Public/admin/js/jquery.js"></script>
-<script src="/personalBlog/Public/admin/js/pintuer.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>网站信息</title>
+    <link rel="stylesheet" href="/personalBlog/Public/admin/css/pintuer.css">
+    <link rel="stylesheet" href="/personalBlog/Public/admin/css/admin.css">
+    <script src="/personalBlog/Public/admin/js/jquery.js"></script>
+    <script src="/personalBlog/Public/admin/js/pintuer.js"></script>
 </head>
 <body>
-<form method="post" action="" id="listform">
+<form action="/personalBlog/index.php/Admin/Article/sort" method="post">
   <div class="panel admin-panel">
-    <div class="panel-head"><strong class="icon-reorder"> 内容列表</strong> <a href="/personalBlog/index.php/Admin/Article/add" style="float:right; display:none;">添加字段</a></div>
+    <div class="panel-head"><strong class="icon-reorder"> 内容列表</strong></div>
     <div class="padding border-bottom">
       <ul class="search" style="padding-left:10px;">
-        <li> <a class="button border-main icon-plus-square-o" href="/personalBlog/index.php/Admin/Article/add.html"> 添加内容</a> </li>
+        <li> <a class="button border-main icon-plus-square-o" href="/personalBlog/index.php/Admin/Article/add"> 添加内容</a> </li>
         <li>搜索：</li>
         <li>
           <input type="text" placeholder="请输入搜索关键字" name="keywords" class="input" style="width:250px; line-height:17px;display:inline-block" />
-          <a href="javascript:void(0)" class="button border-main icon-search" onclick="changesearch()" > 搜索</a></li>
+          <a href="javascript:void(0)" class="button border-main icon-search" onClick="changesearch()" > 搜索</a></li>
+        <li>
+          <input class="button border-blue" type="submit" value="更新排序">
+        </li>
       </ul>
     </div>
     <table class="table table-hover text-center">
@@ -38,32 +41,17 @@
       </tr>
       <?php if(is_array($articles)): $i = 0; $__LIST__ = $articles;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
           <td><input type="checkbox" name="id[]" value="" /></td>
-          <td><input type="text" name="sortId[]" value="<?php echo ($vo["sortId"]); ?>" style="width:50px; text-align:center; border:1px solid #ddd; padding:7px 0;" /></td>
-          <td><?php echo ($vo["article_id"]); ?></td>
+          <td><input type="text" name="<?php echo ($vo["article_id"]); ?>" value="<?php echo ($vo["article_sortid"]); ?>" style="width:50px; text-align:center; border:1px solid #ddd; padding:7px 0;" /></td>
+          <td><?php echo ($vo["article_id"]); echo ($vo["article_sortId"]); ?></td>
           <td width="10%"><img src="/personalBlog/Public/Uploads/<?php echo ($vo["pic"]); ?>" alt="" width="70" height="50" /></td>
           <td><?php echo ($vo["title"]); ?></td>
-          <td><?php echo ($vo["cateid"]); ?></td>
-          <td><?php echo ($vo["datetime"]); ?></td>
-          <td>
-              <div class="button-group">
-                  <a class="button border-main" href="/personalBlog/index.php/Admin/Article/edit/id/<?php echo ($vo["article_id"]); ?>">
-                  <span class="icon-edit"></span> 修改</a>
-                  <a class="button border-red" href="/personalBlog/index.php/Admin/Article/del/id/<?php echo ($vo["article_id"]); ?>" onclick="return confirm('你要删除栏目<?php echo ($vo["title"]); ?>吗?');">
-                      <span class="icon-trash-o"></span> 删除</a>
-              </div>
-          </td>
+          <td><?php echo ($vo["cate_name"]); ?></td>
+          <td><?php echo ($vo["publish_time"]); ?></td>
+          <td><div class="button-group"> <a class="button border-main" href="/personalBlog/index.php/Admin/Article/edit/id/<?php echo ($vo["article_id"]); ?>"> <span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/personalBlog/index.php/Admin/Article/del/id/<?php echo ($vo["article_id"]); ?>" onClick="return confirm('你确定要删除此栏目吗?'");"> <span class="icon-trash-o"></span> 删除</a> </div></td>
         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-        <tr>
-            <td colspan="8"><div class="pagelist">
-                <a href="javascript:;">上一页</a>
-                <span class="current">1</span>
-                <a href="javascript:;">2</a>
-                <a href="javascript:;">3</a>
-                <a href="javascript:;">下一页</a>
-                <a href="javascript:;">尾页</a>
-            </div>
-            </td>
-        </tr>
+      <tr> 
+        <td colspan="8"><div class="pagelist"> <?php echo ($page); ?> </div></td>
+      </tr>
     </table>
   </div>
 </form>
@@ -77,7 +65,7 @@ function changesearch(){
 //单个删除
 function del(id,mid,iscid){
 	if(confirm("您确定要删除吗?")){
-		
+	
 	}
 }
 

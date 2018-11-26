@@ -31,7 +31,7 @@
             <label>栏目内容：</label>
         </div>
           <td>
-              <textarea name="column_content" class="common-textarea" id="ueditor" cols="30" style="margin-left:170px;width:600px;height:500px" rows="10" data-validate="required:请输入内容"></textarea>
+              <textarea name="column_content" class="common-textarea" id="ueditor" cols="30" style="margin-left:170px;width:600px;height:500px" rows="10"></textarea>
           </td>
       </div>
       <div class="form-group">
@@ -39,7 +39,7 @@
           <label>排序：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" name="column_sort" value="0"  data-validate="required:,number:排序必须为数字" />
+          <input type="number" class="input w50" name="column_sort" value=""  data-validate="required:,number:排序必须为数字" />
           <div class="tips"></div>
         </div>
       </div>

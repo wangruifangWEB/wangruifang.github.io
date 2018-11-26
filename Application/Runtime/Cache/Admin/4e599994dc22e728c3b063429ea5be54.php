@@ -28,7 +28,7 @@
     </tr>
       <?php if(is_array($columns)): $i = 0; $__LIST__ = $columns;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
               <td>
-                  <input type="text" name="<?php echo ($vo["column_sort"]); ?>" value="<?php echo ($vo["column_sort"]); ?>" style="width:50px; text-align:center; border:1px solid #ddd; padding:7px 0;">
+                  <input type="number" name="<?php echo ($vo["column_id"]); ?>" value="<?php echo ($vo["column_sort"]); ?>" style="width:50px; text-align:center; border:1px solid #ddd; padding:7px 0;">
               </td>
               <td><?php echo ($vo["column_id"]); ?></td>
               <td><?php echo ($vo["column_title"]); ?></td>

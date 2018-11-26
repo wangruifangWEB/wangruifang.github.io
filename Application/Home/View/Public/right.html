@@ -1,0 +1,34 @@
+<aside class="col-md-4 sidebar">
+	<div class="widget">
+		<h4 class="title">技术频道</h4>
+		
+			<div class="content">
+				<volist name="cates" id="ca">
+                <form action="__MODULE__/Index/index" method="post">
+					<p>
+	                    <input type="hidden" name="id" value="{$ca.cate_id}" />
+						<input type="submit" value="{$ca.cate_name}" style="border:none;background-color:#fff;color:#000;"/>
+					</p>
+                    </form>
+				</volist>
+			</div>
+		
+	</div>
+	<div class="widget">
+		<h4 class="title">社区</h4>
+		<div class="content community">
+			<volist name="communities" id="co">
+				<p>
+					<a href="{$co.url}" title="{$co.title}" target="_blank" onClick=""><i class="fa fa-comments"></i> {$co.title}</a>
+				</p>
+			</volist>
+
+		</div>
+	</div>
+	<div class="widget">
+		<h4 class="title">最近文章</h4>
+		<volist name="articles" id="vo">
+			<a href="__MODULE__/Detail/index/id/{$vo.article_id}" class="btn btn-default btn-block" target="_blank">{$vo.title}</a>
+		</volist>
+	</div>
+</aside>

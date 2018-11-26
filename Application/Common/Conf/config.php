@@ -13,8 +13,17 @@ return array(
     'DB_PWD'    => 'root',
     // 端口
     'DB_PORT'   => 3306,
+	
 //    // 数据库表前缀
 //    'DB_PREFIX' => 'think_',
+
     // 字符集
     'DB_CHARSET'=> 'utf8',
+	'TMPL_CACHE_ON' => false,//禁止模板编译缓存 
+    'HTML_CACHE_ON' => false,//禁止静态缓存 
+	
+	'SESSION_AUTO_START'=>true
+	 
+//    自动加载公共函数
+    //'LOAD_EXT_FILE' => 'function',
 );

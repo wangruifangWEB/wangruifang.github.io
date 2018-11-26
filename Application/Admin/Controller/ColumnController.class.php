@@ -46,7 +46,7 @@ class ColumnController extends Controller {
             $this->display();
         }else {
             if($cate->create()){
-                $result = $cate->where(['column_id'=>$id])->save($_POST); // 根据条件保存修改的数据
+                $result = $cate->where("column_id='$id'")->save($_POST); // 根据条件保存修改的数据
                 if (!$result) {
                     $this->error('栏目修改失败');
                 } else {
