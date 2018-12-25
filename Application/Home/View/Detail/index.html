@@ -90,7 +90,6 @@
 												<p><span>{$vo.uname}</span> • {$vo.publish_time}</p>
 												<p>{$vo.content}</p>
 												<a href="javascript:;" class="replyShow">回复</a>
-												<input type="hidden" value="{$vo.id}" class="commentId"/>
 												<ul>
 													<volist name="vo['new']" id="v">
 														<li>
@@ -98,13 +97,12 @@
 															<p>{$v.replycontent}</p>
 														</li>
 													</volist>
-													<!--<form action="/personalBlog/index.php/Home/Detail/reply" enctype="application/x-www-form-urlencoded" method="get">-->
-														<div class="replyBox">
-															<input type="text" placeholder="请输入姓名" id="replyName" name="replyname"/>
-															<textarea name="" rows="1" cols="64" placeholder="理性言论哦" id="replyContent"></textarea>
-															<button id="reply">添加回复</button>
-														</div>
-													<!--</form>-->
+													<div class="replyBox">
+														<input type="text" placeholder="请输入姓名" id="replyName" name="replyname"/>
+														<textarea name="" rows="1" cols="64" placeholder="理性言论哦" id="replyContent"></textarea>
+														<!--<input type="button" value="{$vo.id}" class="commentId"/>-->
+														<button id="reply" commentid="{$vo.id}">添加回复</button>
+													</div>
 												</ul>
 											</li>
 										</volist>
@@ -187,30 +185,33 @@
 
 			//回复留言
 			//调出回复输入框
-			$('.list').on('click','.replyShow',function() {
-			    console.log('点击了');
+			$('.list').on('click','.replyShow',function(e) {
+				e.preventDefault();
+			    console.log('点击了主评论的回复按钮');
 				$('.replyBox').hide(500);
 				$(this).siblings('ul').children('.replyBox').show(500);
 				$(this).siblings('ul').children('.replyBox').children('input').focus();
 			});
 			
-			$('.list').on('click','#reply',function(){
-				$(".replyBox").hide(500);
-				//给当前的提交按钮添加自定义属性值，作为区分
+			$('.list').on('click','#reply',function(e){
+				 console.log('回复主评论的发表按钮');
+				e.preventDefault();
 				$(this).addClass('currentIdx');
+				//给当前的提交按钮添加自定义属性值，作为区分
 				throttle(replyLeave);
+				$(".replyBox").hide(500);
 			})
 
 			var replyLeave = function() {
 				var replyName = $('.currentIdx').siblings('#replyName').val();
+				console.log(replyName);
 				var replyContent = $('.currentIdx').siblings('#replyContent').val();
-				var commentId = $('.curenrtIdx').parent().parent().siblings('.commentId').val();
+				console.log(replyContent);
+				var commentId = $('.curenrtIdx').attr('commentid');
 				console.log(commentId);
 				
 				if(replyName == '' || replyContent == '') {
 					alert('输入不能为空！');
-					//清除添加的class
-					$('#reply').removeClass('currentIdx');
 					return false;
 				} else {
 					$.ajax({
